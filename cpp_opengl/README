@@ -1,0 +1,31 @@
+== How to Compile ==
+
+g++ Scene.cpp -lGL -lglut -o app
+
+== How to use ==
+
+Q	Exit
+A	Paint a star
+S	Paint a sphere
+D	Cube
+F	Cone
+G	Torus
+T 	Cylinder
+Z	Move camera to the left
+V	Move camera to the right
+X	Move forward the camera
+C	Move backward with the camera
+H	Move selected figure in +x direction
+Y	Move selected figure in -x direction
+J	Move selected figure in +y direction
+U	Move selected figure in -y direction
+K	Move selected figure in +z direction
+I	Move selected figure in -z direction
+
+O	Select previous figure
+P	Select next figure
+
+Arrows	Rotate selected figure
+M	Activate grid
+N	Activate axes
+Right Click other features as well
